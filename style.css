@@ -59,7 +59,12 @@ h3 {
   .lg\:ml-3 {
     margin-left: 0.75rem;
   }
-  .lg\:mt-2 {
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 640px) {
+  .sm\:mt-2 {
     margin-top: 0.5rem;
   }
 }
