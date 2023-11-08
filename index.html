@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ - Trường đại học quốc tế hồng bàng</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2022/02/cropped-cropped-Logo-HBU-Final-2048x516.png"
+            height="40"
+            class="d-inline-block align-top"
+            alt="Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Giới thiệu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="#" class="dropdown-item">Chúng tôi là ai?</a>
+                <a href="#" class="dropdown-item">Tầm nhìn, sứ mạng</a>
+                <a href="#" class="dropdown-item">Giá trị cốt lõi</a>
+                <a href="#" class="dropdown-item">Triết lý giáo dục</a>
+                <a href="#" class="dropdown-item">Tại sao chọn HIU?</a>
+                <a href="#" class="dropdown-item">Cơ cấu tổ chức</a>
+                <div class="dropdown-item dropright">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Giới thiệu
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a href="#" class="dropdown-item">Chúng tôi là ai?</a>
+                  </div>
+                </div>
+                <a href="#" class="dropdown-item">Bản tin</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tuyển sinh</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Học tập tại HIU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cuộc sống tại HIU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tiện ích</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tuyển dụng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII="
+                  alt=""
+                />
+                English</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+            </li>
+            <!-- <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            alt="First slide"
+            src="https://hiu.vn/wp-content/uploads/2020/02/z4853082560116_d25b84eda1139b386cc92daee28bf8c7.jpg"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://hiu.vn/wp-content/uploads/2020/02/z4845016504030_e315e9cbfa7e791ba29c88c662e35d40.jpg"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://hiu.vn/wp-content/uploads/2020/02/z4627623614801_0f7e4610a85c954e25eb316bb6efa194.jpg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="">
+      <h2 class="text-center font-weight-bold my-5">Tin tức - Sự kiện</h2>
+      <div class="text-center mt-0">
+        <div class="border-top d-inline-block w-75 position-relative"></div>
+        <div
+          class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+        >
+          <i class="fa-solid fa-newspaper"></i>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/11/Thiet-ke-chua-co-ten-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50"
+                      >Sinh viên HIU tôn vinh văn hóa truyền thống Việt Nam qua
+                      show áo dài Di Bản – Hương sắc ngàn năm</a
+                    >
+                  </h5>
+                  <a href="#">Tin tức</a>
+                  <p class="card-text">
+                    Vừa qua, sự kiện “Di Bản - Hương sắc ngàn năm” do các bạn
+                    sinh viên ngành Truyền thông đa…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/11/Thiet-ke-chua-co-ten-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50">
+                      Hơn 300 teen Trung học Pathway Tuệ Đức hào hứng trong lần
+                      đầu “vi vu” con tàu tri thức HIU
+                    </a>
+                  </h5>
+                  <a href="#">Tin tức</a>
+                  <p class="card-text">
+                    Sáng nay 27/10, HIU đã có buổi đón tiếp đoàn học sinh trường
+                    THPT Pathway Tuệ Đức vô cùng nồng…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/11/Thiet-ke-chua-co-ten-3.png"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50"
+                      >Sinh viên HIU mở mang tầm mắt với dàn khách mời khủng tại
+                      chương trình Workshop: Tinh hoa ý tưởng – Bừng sáng tạo
+                      Việt</a
+                    >
+                  </h5>
+                  <a href="#">Tin tức</a>
+                  <p class="card-text">
+                    Sinh viên HIU mở mang tầm mắt với dàn khách mời khủng tại
+                    chương trình Workshop: Tinh hoa ý tưởng – Bừng sáng tạo Việt
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex pb-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/10/Thiet-ke-chua-co-ten-4-300x188.png"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU đồng hành cùng Hội thảo: Hướng tới mục tiêu trở thành Trung
+              tâm chăm sóc sức khỏe khu vực ASEAN
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/11/Thiet-ke-chua-co-ten-300x188.png"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU ký kết MOU cùng Công ty Tân Cảng STC và Công ty FINE
+              SCANDINAVIA – cùng nhau thúc đẩy phát triển ngành Logistics tiến
+              xa hơn trong tương
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/10/thumnail-2-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU đồng hành cùng Sở GD&ĐT TPHCM tổ chức cuộc thi “Học sinh, Sinh
+              viên với ý tưởng khởi nghiệp” cấp thành phố
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/10/Thie%CC%82%CC%81t-ke%CC%82%CC%81-chu%CC%9Ba-co%CC%81-te%CC%82n-7-300x188.png"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU đồng hành cùng trường THPT Hùng Vương dạy các môn chuyên đề
+              hướng nghiệp trong Chương trình giáo dục phổ thông mới
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/10/Thie%CC%82%CC%81t-ke%CC%82%CC%81-chu%CC%9Ba-co%CC%81-te%CC%82n-6-300x188.png"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIUCARE lần thứ 2 trở lại Đồng Nai và mang đến nhiều màu sắc thú
+              vị cho các bạn học sinh tại đây
+            </a>
+          </div>
+          <div class="text-center mt-3">
+            <a href="" class="px-3 py-2 more">
+              <i class="fa-solid fa-newspaper"></i>
+              Xem thêm
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <h2 class="text-center font-weight-bold my-5">Tuyển sinh 2023</h2>
+      <div class="text-center mt-0">
+        <div class="border-top d-inline-block w-75 position-relative"></div>
+        <div
+          class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+        >
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/08/XTBS_Thumbweb-4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50"
+                      >HIU xét tuyển bổ sung và cấp học bổng 3.2 triệu đồng cho
+                      mỗi thí sinh</a
+                    >
+                  </h5>
+                  <a href="#">Tuyển sinh</a>
+                  <p class="card-text">
+                    Sau khi công bố điểm chuẩn với ngành cao nhất 22.5 điểm và
+                    thấp nhất 15 điểm, Hội đồng tuyển…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/08/z4602484830851_c73c714ea679478110f60dee061319ed.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50">
+                      HIU công bố điểm chuẩn Đại học chính quy năm 2023
+                    </a>
+                  </h5>
+                  <a href="#">Tuyển sinh</a>
+                  <p class="card-text">
+                    Sáng ngày 22/08, Hội đồng tuyển sinh Trường Đại học Quốc tế
+                    Hồng Bàng (HIU) đã họp và công bố…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/08/z4568673952898_f85aebd1c71628b84431dc56a4bc80f0-scaled.jpg"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50"
+                      >Hướng dẫn thanh toán trực tuyến lệ phí xét tuyển đại học
+                      2023</a
+                    >
+                  </h5>
+                  <a href="#">Tuyển Sinh</a>
+                  <p class="card-text">
+                    Từ ngày 31-7 đến 17h ngày 6-8, thí sinh nộp lệ phí xét tuyển
+                    trực tuyến theo sáu cụm tỉnh…
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex pb-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/08/z4567618288260_e6d34a10ee1775881924dbb2cc321e60-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU công bố Thời khóa biểu Tháng định hướng Đại học
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/08/z4564989365991_643c68e4895daf4dc767c20cbe7f6b4e-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              [Infographic] Hướng dẫn nhập học dành cho Tân sinh viên HIU 2023
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/07/z4583012094149_565acfbb3b2d4c905fa4e5a7d52a7d83-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU nhận hồ sơ xét tuyển đến ngày 20/08/2023
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/07/z4550956197893_08cb803346d728e73e36c64e57eaa082-1-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU công bố điểm trúng tuyển sớm Đại học chính quy năm 2023 theo
+              các phương thức khác
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/07/cong-bo-sk_800x500-300x188.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              HIU công bố điểm sàn xét tuyển khối ngành Sức khỏe bằng kết quả
+              thi Tốt nghiệp THPT từ 19 điểm
+            </a>
+          </div>
+          <div class="text-center mt-3">
+            <a href="" class="px-3 py-2 more">
+              <i class="fa-solid fa-bullhorn"></i>
+              Xem thêm
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <h2 class="text-center font-weight-bold my-5">Định hướng Tương lai</h2>
+      <div class="text-center mt-0">
+        <div class="border-top d-inline-block w-75 position-relative"></div>
+        <div
+          class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+        >
+          <i class="fa-solid fa-signs-post"></i>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/08/HIU09009-2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50"
+                      >Bật mí về ngành học dễ kiếm tiền, sinh viên cứ ra trường
+                      là có việc</a
+                    >
+                  </h5>
+                  <a href="#">Định Hướng Tương Lai, Tin Tức</a>
+                  <p class="card-text">
+                    Ngành học này hiện có điểm chuẩn đầu vào cực cao, thời gian
+                    đào tạo kéo dài tới 6 năm…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-41-scaled.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50">
+                      Thời điểm “vàng” cho ngành Quản lý Giáo dục
+                    </a>
+                  </h5>
+                  <a href="#">Định Hướng Tương Lai</a>
+                  <p class="card-text">
+                    Quản lý giáo dục là một lĩnh vực đóng vai trò quan trọng
+                    trong xã hội, ngành giáo dục nỗ…
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-40-scaled.jpg"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-black-50">
+                      Giải đáp về ngành Giáo dục tiểu học
+                    </a>
+                  </h5>
+                  <a href="#">Tuyển Sinh</a>
+                  <p class="card-text">
+                    Thực trạng ngành Giáo dục tiểu học ngày càng thiếu hút nhân
+                    lực trên cả nước, do chúng ta chưa…
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex pb-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-39-300x187.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              Tầm quan trọng của ngành Giáo dục mầm non
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-23-300x187.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              Triển vọng ngành Luật kinh tế tại Việt Nam
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-24-300x187.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              Nhu cầu về nguồn nhân lực ngành luật hiện nay
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-28-300x187.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              Những điều cần biết về ngành ngôn ngữ Nhật
+            </a>
+          </div>
+          <div class="d-flex py-2">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2023/04/41-NGANH-29-300x187.jpg"
+              alt=""
+              height="100"
+              width="150"
+            />
+            <a href="" class="px-2 srpw-title">
+              Ngành ngôn ngữ Hàn từng bước trở thành ngành học được săn đón
+              trong năm 2024
+            </a>
+          </div>
+          <div class="text-center mt-3">
+            <a href="" class="px-3 py-2 more">
+              <i class="fa-solid fa-signs-post"></i>
+              Xem thêm
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <h2 class="text-center font-weight-bold my-5">
+        Tìm hiểu về các chương trình học tại HIU
+      </h2>
+      <div class="text-center mt-0">
+        <div class="border-top d-inline-block w-75 position-relative"></div>
+        <div
+          class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+        >
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+      </div>
+      <p class="text-center mt-5 mx-auto">
+        HIU mang đến cho bạn nhiều lựa chọn đa dạng về chương trình học, cử nhân
+        và sau Đại học tùy theo khả năng, sở thích, định hướng tương lai của bản
+        thân. Hãy chọn cho mình con đường phù hợp nhất!
+      </p>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2021/04/hiu-dai-hoc-quoc-te-hong-bang.jpg"
+            alt=""
+            class="img-fluid"
+          />
+          <div
+            style="
+              width: calc(100% - 12px);
+              margin-top: -40px;
+              background-color: #fafafa;
+            "
+            class="mx-auto p-2 shadow-inner"
+          >
+            <h3 class="font-weight-bold">Chương trình học</h3>
+            <p>
+              Với 47 chuyên ngành bậc đại học, 16 chương trình sau đại học và
+              nhiều chương trình quốc tế, chúng tôi mang đến nhiều sự lựa chọn,
+              đáp ứng mọi nhu cầu và lộ trình học tập của bạn.
+            </p>
+            <ul class="list-none pl-0">
+              <li>
+                <i class="fa-regular fa-square-check"></i>
+                Đạt tiêu chuẩn quốc tế
+              </li>
+              <li>
+                <i class="fa-regular fa-square-check"></i>
+
+                Phương pháp đào tạo linh hoạt
+              </li>
+              <li>
+                <i class="fa-regular fa-square-check"></i>
+                Cập nhật thường xuyên theo yêu cầu của thị trường
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2020/03/CHUONG-TRINH-TIENG-ANH.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2021/04/hiu-dai-hoc-quoc-te-hong-bang-2.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2021/04/hiu-dai-hoc-quoc-te-hong-bang-3.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="mt-5 bg-img py-5">
+      <div class="w-50 bg-rgb ml-3">
+        <div class="w-75 mx-auto">
+          <h2 class="text-white p-4 text-center">Hướng nghiệp</h2>
+          <p class="text-white px-2 text-justify">
+            Có rất nhiều hoạt động và dịch vụ hỗ trợ bạn lên kế hoạch và đưa ra
+            các quyết định nghề nghiệp, cũng như tìm được công việc phù hợp sau
+            khi tốt nghiệp. Chuẩn bị cho việc tuyển dụng, Kế hoạch và Quyết định
+            nghề nghiệp, Các Chương trình và Sự kiện Hướng nghiệp.
+          </p>
+          <div class="w-100 pb-4">
+            <div class="py-3 px-1 btn-more w-25 mx-auto text-center">
+              <a href="" class="text-white">Tìm hiểu thêm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-4">
+          <div class="">
+            <div class="text-center mt-0">
+              <div
+                class="border-top d-inline-block w-75 position-relative"
+              ></div>
+              <div
+                class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+              >
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+            </div>
+            <h3 class="text-center font-weight-bold my-4">
+              Cuộc sống sinh viên
+            </h3>
+            <p class="text-center">
+              Hòa nhập vào cộng đồng sôi động và thân thiện.
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="">
+            <div class="text-center mt-0">
+              <div
+                class="border-top d-inline-block w-75 position-relative"
+              ></div>
+              <div
+                class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+              >
+                <i class="fa-solid fa-square-h"></i>
+              </div>
+            </div>
+            <h3 class="text-center font-weight-bold my-4">Tại sao chọn HIU</h3>
+            <p class="text-center">Chúng tôi tự hào về danh tiếng của HIU.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="">
+            <div class="text-center mt-0">
+              <div
+                class="border-top d-inline-block w-75 position-relative"
+              ></div>
+              <div
+                class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+              >
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+            </div>
+            <h3 class="text-center font-weight-bold my-4">Nhập học tại HIU</h3>
+            <p class="text-center">
+              Bạn quyết định nhập học tại HIU? Tìm hiểu ngay!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <h2 class="text-center font-weight-bold my-5">Khối ngành Đào tạo</h2>
+      <div class="text-center mt-0">
+        <div class="border-top d-inline-block w-75 position-relative"></div>
+        <div
+          class="text-white rounded-circle position-absolute d-flex justify-content-center align-items-center circle-divider"
+        >
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="position-relative">
+            <img
+              src="https://hiu.vn/wp-content/uploads/2020/03/Khoa_Kythuatcongnghe.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div
+            class="position-absolute khoi-nganh-text text-center w-100 text-white text-center font-weight-bold pt-2"
+          >
+            <p>Khối ngành Kỹ thuật - Công nghệ</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2020/03/KHOI-NGANH-SUC-KHOE.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2020/07/khoa_Ktequanlyluat-1.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-3">
+          <img
+            src="https://hiu.vn/wp-content/uploads/2020/07/khoi-nganh-KHXHNNQT-1.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.circle-divider {
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #174874;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-title > a:visited,
+.card-title > a:link,
+.srpw-title {
+  color: #272727;
+}
+
+.srpw-title:hover {
+  color: red;
+}
+.more {
+  border: 1px dotted black;
+}
+h2,
+h3 {
+  color: #174874;
+}
+.list-none {
+  list-style-type: none;
+}
+
+.shadow-inner {
+  box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}
+.bg-rgb {
+  background: rgba(23, 72, 116, 0.6);
+}
+.bg-img {
+  background-image: url(https://hiu.vn/wp-content/uploads/2020/07/huong-nghiep-hiu-anh-bia-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.btn-more {
+  background-color: rgba(8, 31, 51, 0.69);
+}
+.khoi-nganh-text {
+  bottom: 0;
+  background-color: #115184;
+}
