@@ -47,7 +47,7 @@ h3 {
 }
 .khoi-nganh-text {
   bottom: 0;
-  background-color: #115184;
+  background-color: rgba(23, 72, 116, 0.7);
 }
 .w-fit {
   width: fit-content;
@@ -56,6 +56,16 @@ h3 {
   .lg\:w-1\/2 {
     width: 50%;
   }
+  .lg\:ml-3 {
+    margin-left: 0.75rem;
+  }
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
