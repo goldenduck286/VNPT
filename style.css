@@ -70,3 +70,9 @@ h3 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+@media (max-width: 575.98px) {
+  .xs-max\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
