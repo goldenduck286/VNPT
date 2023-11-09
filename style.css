@@ -12,6 +12,19 @@ body {
   transform: translate(-50%, -50%);
   background-color: #174874;
 }
+.circle-divider_white {
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+.text-orange {
+  color: rgb(231, 152, 0);
+}
+.border-top_orange {
+  border-top: 1px solid rgb(231, 152, 0);
+}
 
 a:hover {
   text-decoration: none;
@@ -90,4 +103,9 @@ li.nav-item > a.search:hover {
   .lg\:w-1\/2 {
     width: 50%;
   }
+}
+.footer {
+  background-image: url(https://hiu.vn/wp-content/uploads/2020/02/IMG_1066.jpg);
+  background-color: rgba(23, 72, 115, 0.9);
+  background-repeat: no-repeat;
 }
