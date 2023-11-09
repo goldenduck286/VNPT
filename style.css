@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .circle-divider {
   width: 40px;
   height: 40px;
