@@ -47,7 +47,8 @@ h2,
 h3 {
   color: #174874 !important;
 }
-li.nav-item > a:hover {
+li.nav-item > a:hover,
+a.text-white:hover {
   color: orange !important;
 }
 li.nav-item > a.search:hover {
@@ -105,7 +106,11 @@ li.nav-item > a.search:hover {
   }
 }
 .footer {
-  background-image: url(https://hiu.vn/wp-content/uploads/2020/02/IMG_1066.jpg);
+  /* background-image: url(https://hiu.vn/wp-content/uploads/2020/02/IMG_1066.jpg); */
   background-color: rgba(23, 72, 115, 0.9);
   background-repeat: no-repeat;
+  object-fit: cover;
+}
+h2.text-white {
+  font-size: 20px;
 }
