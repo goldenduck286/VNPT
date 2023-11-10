@@ -98,6 +98,18 @@ li.nav-item > a.search:hover {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+  .hide-for-small-only {
+    display: none;
+  }
+  .xs\:text-center {
+    text-align: center;
+  }
+  .xs-max\:mt-4 {
+    margin-top: 1rem;
+  }
+  .xs-max\:justify-center {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -120,4 +132,11 @@ h2.text-white {
   width: 45px;
   height: 3px;
   margin-bottom: 10px;
+}
+
+.footer-bottom {
+  background-color: #174873;
+}
+.footer-bottom hr {
+  max-width: 75rem;
 }
