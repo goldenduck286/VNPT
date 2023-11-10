@@ -44,7 +44,8 @@ a:hover {
 }
 li.nav-item > a,
 h2,
-h3 {
+h3,
+h5.card-title > a {
   color: #174874 !important;
 }
 li.nav-item > a:hover,
