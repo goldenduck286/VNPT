@@ -114,3 +114,10 @@ li.nav-item > a.search:hover {
 h2.text-white {
   font-size: 20px;
 }
+
+.tv-div {
+  background-color: #f7f7f7;
+  width: 45px;
+  height: 3px;
+  margin-bottom: 10px;
+}
