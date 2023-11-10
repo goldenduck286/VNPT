@@ -1686,8 +1686,11 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           loop: true,
-          autoplay: true,
+          autoPlay: true,
           pagination: false,
+          autoplaySpeed: 1000,
+          autoplayTimeout: 1000,
+          items: 4,
         });
       });
     </script>
